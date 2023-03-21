@@ -18,7 +18,7 @@ public class Main {
         Path path = Path.of(filePath);
         Path newPath = Path.of(path.getParent() + NEW_FILE_NAME);
 
-        Human[] read = new Human().readToArrayHuman(path);
+        Human[] read = new Reader().readFromFile(path);
         Human[] humanFilter = new HumanFilter().humanFilter(read, maxConsumption);
         StringFormat stringFormat = new StringFormat();
 

@@ -1,10 +1,6 @@
 package greenUsers;
 
-public class  StringFormat {
-
-    public StringFormat() {
-
-    }
+public class StringFormat {
 
     public String stringFormat(Human[] human) {
         StringBuilder stringBuilder = new StringBuilder();

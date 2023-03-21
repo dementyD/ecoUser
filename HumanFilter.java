@@ -2,10 +2,6 @@ package greenUsers;
 
 public class HumanFilter {
 
-    public HumanFilter() {
-
-    }
-
     public Human[] humanFilter(Human[] arrayHuman, int maxConsumption) {
         Human[] resultHuman = new Human[arrayHuman.length];
         for (int i = 0; i < arrayHuman.length; i++) {
